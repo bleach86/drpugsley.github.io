@@ -42,7 +42,6 @@
 .navbar-brand {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  margin-right: 1rem;
   font-family: Clemente !important;
   font-size: 2rem !important;
   color: #d6d6d6 !important;
@@ -200,11 +199,13 @@
 	background-color: #242424;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+	word-wrap: break-word;
 }
 
 #donations h4 {
 	text-align: center;
 	color: #969696;
+	font-weight: normal;
 }
 
 h4 {
