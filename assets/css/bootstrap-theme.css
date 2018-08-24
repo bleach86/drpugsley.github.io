@@ -203,9 +203,11 @@
 }
 
 #donations h4 {
+	font-size: 1.5em;
 	text-align: center;
 	color: #969696;
 	font-weight: normal;
+	word-wrap: break-word;
 }
 
 h4 {
