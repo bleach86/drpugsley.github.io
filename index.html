@@ -9,6 +9,9 @@
     <!-- Bootstrap -->
 	<link href="assets/css/bootstrap-4.0.0.css" rel="stylesheet">
 	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+	<!-- Particles Stuff -->
+	<script src="assets/js/particles.js"></script>
+	<link href="assets/css/particles.css" rel="stylesheet">
 	
   </head>
 <body>
@@ -33,16 +36,20 @@
     </ul>
 </div>
 </nav>
-	  
 <div id="welcome" class="container-fluid">
   <div class="container pt-5">
-    <div class="col-md-8 mr-auto ml-auto">
+  	<div id="particles-js"></div>
+    <script src="assets/js/particles-config.js"></script>
+    <div class="row">
+    <img class="col-auto" src="assets/images/TC_Logo_1000x1000.png">
+    <div id="welcome-text" class="col-md-6 mx-auto">
     <h1 class="text-center">Welcome to Tuxcoin!</h1>
 	  <br>
 	  <h5 class="text-center">Supporting the OSS Community</h5>
 	  <br><br>
 	  <p class="text-center">Tuxcoin is a cryptocurrency intended to support Open-Source Software projects. Tuxcoin is Proof-of-Work, utilizing the low-power consuming Allium algorithm. Support of OSS projects comes in the form of donations to projects that the community chooses and votes on. The project teams that receive donations are free to do with the cryptocurrency as they will. Our donations will further encourage OSS growth and adoption, which is a key component to our digital future.
 The Tuxcoin Development Team will set in motion a plan to donate to 5 projects on a monthly basis, all supported by the community.</p>
+	</div>
     </div>
   </div>
 </div>
@@ -135,24 +142,24 @@ The Tuxcoin Development Team will set in motion a plan to donate to 5 projects o
 	    <div role="tabpanel" class="tab-pane fade show active" id="tab1" aria-labelledby="wallettab">
 	      <p>To get your wallet, simply click on the image that corresponds to your operating system</p>
 			  <div class="row">
-				<div class="col-md-4 col-lg-2">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 					  <a href="https://github.com/bleach86/tuxcoin-V2/releases/download/v1.05/tuxcoin-0.17.1-x86_64-linux-gnu.tar.gz">
-						<img width="100px" src="assets/images/wallets/linux.png" alt="Linux">
+						<img src="assets/images/wallets/linux.png" alt="Linux">
 						</a>
 					</div>
-				<div class="col-md-4 col-lg-2">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 						<a href="https://github.com/bleach86/tuxcoin-V2/releases/download/v1.05/tuxcoin-0.17.1-arm-linux-gnueabihf.tar.gz">
-						<img width="100px" src="assets/images/wallets/pi.png" alt="Raspberry Pi">
+						<img src="assets/images/wallets/pi.png" alt="Raspberry Pi">
 						</a>
 					</div>
-				<div class="col-md-4 col-lg-2">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 						<a href="https://github.com/bleach86/tuxcoin-V2/releases/download/v1.05/tuxcoin-0.17.1-win64-setup-unsigned.exe">
-						<img width="100px" src="assets/images/wallets/windows.png" alt="Windows">
+						<img src="assets/images/wallets/windows.png" alt="Windows">
 						</a>
 					</div>
-				<div class="col-md-4 col-lg-2">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 						<a href="https://github.com/bleach86/tuxcoin-V2/releases/download/v1.05/tuxcoin-0.17.1-osx-unsigned.dmg">
-						<img width="100px" src="assets/images/wallets/apple.png" alt="Mac OS">
+						<img src="assets/images/wallets/apple.png" alt="Mac OS">
 						</a>
 					</div>
 			  </div>

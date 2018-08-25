@@ -149,11 +149,15 @@
 
 .dropdown-item {
 	font-size: 1.2rem;
-	font-weight: bold
+	font-weight: bold;
 }
 
 .dropdown-item:hover {
 	color: #767676;
+}
+
+html {
+	font-size: 15px !important;
 }
 
 /*Custom Stuff*/
@@ -203,7 +207,7 @@
 }
 
 #donations h4 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	text-align: center;
 	color: #969696;
 	font-weight: normal;
@@ -233,4 +237,46 @@ a {
 
 a:hover {
 	color: #cccccc;
+}
+
+.tab-pane img {
+	width: 50%;
+}
+
+@media (min-width: 1200px) {
+	#welcome .row {
+		height: 45rem;
+		width: 100%;
+	}
+
+	#getting-started .row {
+		margin-left: 4rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.tab-pane img {
+		display: block;
+		margin-right: auto !important;
+		margin-left: auto !important;
+		padding-bottom: 2rem;
+	}
+
+	#welcome-text {
+		margin-left: 5rem !important;
+	}
+
+	#particles-js {
+  	display: none;
+  	}
+
+  	#welcome img {
+	position: relative;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	width: 4rem !important;
+}
 }
