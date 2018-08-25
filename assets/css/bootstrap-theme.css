@@ -56,9 +56,25 @@
   border: none !important;
   border-radius: 0.25rem !important;
   margin: 0.7rem !important;
-  max-width: 10rem;
-  min-height: 12rem !important;
+  max-width: 12rem;
+  min-height: 15rem !important;
   box-shadow: 0 5px 10px #121213;
+}
+
+#tech-info .card-img {
+  background-color: #181818 !important;
+  width: 12rem !important;
+  margin-left: -1rem !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#tech-info .card-img img {
+	height: 9rem;
+	max-width: 10rem;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 #tech-info .card-title	{
