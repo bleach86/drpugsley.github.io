@@ -263,7 +263,11 @@ a:hover {
 	}
 
 	#welcome-text {
-		margin-left: 5rem !important;
+		margin-left: 2.5rem !important;
+	}
+
+	#welcome-text p {
+		width: 20rem !important;
 	}
 
 	#particles-js {
@@ -278,5 +282,5 @@ a:hover {
 	margin-bottom: auto;
 	vertical-align: middle;
 	width: 4rem !important;
-}
+	}
 }
