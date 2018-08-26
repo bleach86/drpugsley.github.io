@@ -120,13 +120,13 @@
 }
 
 .progress {
-  background-color: #333333 !important;
-  height: 1.5rem;
+  background-color: #333333;
+  height: 1.75rem;
 }
 
 .progress-bar {
-  background-color: #666666 !important;
-  height: 1.5rem;
+  background-color: #666666;
+  height: 1.75rem;
 }
 
 .nav-tabs {
@@ -170,6 +170,10 @@
 
 .dropdown-item:hover {
 	color: #767676;
+}
+
+.bg-success {
+  background-color: #4b7955 !important;
 }
 
 html {
@@ -228,6 +232,30 @@ html {
 	color: #969696;
 	font-weight: normal;
 	word-wrap: break-word;
+}
+
+#main-footer {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	color: #c6c6c6;
+	font-size: 1rem;
+	background-color: #181818;
+}
+
+#main-footer .row a, #main-footer .row a:hover {
+	font-size: 3rem;
+	font-weight: normal !important;
+	text-decoration: none !important;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#main-footer .row a {
+	color: #c6c6c6 !important;
+}
+
+#main-footer .row a:hover {
+	color: #666 !important;
 }
 
 h4 {
