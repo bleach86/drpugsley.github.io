@@ -9,6 +9,17 @@
    src: url('../fonts/Cairo-Regular.ttf');
 }
 
+@font-face {
+   font-family:'Genome';
+   src: url('../fonts/genome.thin.otf');
+}
+
+@font-face {
+   font-family:'clearsans';
+   src: url('../fonts/ClearSans-Regular.ttf');
+}
+
+
 /*Bootstrap Changes*/
 .bg-dark {
   background-color: #181818 !important;
@@ -57,7 +68,7 @@
   border-radius: 0.25rem !important;
   margin: 0.7rem !important;
   max-width: 12rem;
-  min-height: 15rem !important;
+  min-height: 20rem !important;
   box-shadow: 0 5px 10px #121213;
 }
 
@@ -189,6 +200,15 @@ html {
 	color: #efefef;
 }
 
+#welcome-text {
+	font-weight: 600;
+}
+
+#welcome-text p {
+	font-family: clearsans;
+	font-weight: normal !important;
+}
+
 #welcome {
 	background-color: #242424;
 	margin-top: 4.5rem;
@@ -234,9 +254,13 @@ html {
 	word-wrap: break-word;
 }
 
+#exchanges {
+	color: #c6c6c6;
+	background-color: #181818;
+}
+
 #main-footer {
 	padding-top: 3rem;
-	padding-bottom: 2rem;
 	color: #c6c6c6;
 	font-size: 1rem;
 	background-color: #181818;
@@ -265,7 +289,7 @@ h4 {
 h1 {
 	color: #c6c6c6;
 	text-align: center;
-	font-family: Cairo;
+	font-family: Genome;
 	font-size: 3rem;
 	font-weight: bold;
 }
@@ -276,7 +300,8 @@ p {
 
 a {
 	color: #fff;
-	font-weight: bold;
+	font-weight: bold !important;
+	font-family: Cairo;
 }
 
 a:hover {
@@ -313,6 +338,7 @@ a:hover {
 	#welcome-text p {
 		width: 20rem !important;
 		margin-left: -1.25rem !important;
+		font-family: "clearsans";
 	}
 
 	#particles-js {
