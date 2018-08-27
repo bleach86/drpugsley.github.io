@@ -200,6 +200,13 @@ html {
 	color: #efefef;
 }
 
+#welcome img {
+	position: relative;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+}
+
 #welcome-text {
 	font-weight: 600;
 }
@@ -207,6 +214,9 @@ html {
 #welcome-text p {
 	font-family: clearsans;
 	font-weight: normal !important;
+	background-color: #181818;
+	padding: 2rem;
+	border-radius: 0.5rem;
 }
 
 #welcome {
@@ -313,7 +323,43 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-	#welcome .row {
+
+
+	#welcome img {
+		width: 20rem !important;
+	}
+
+	#welcome-text {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin-right: 5rem !important;
+		-webkit-box-flex: 0;
+    	-ms-flex: 0 0 50%;
+    	flex: 0 0 50%;
+    	max-width: 50%;
+    	position: relative;
+  		width: 100%;
+  		min-height: 1px;
+  		padding-right: 15px;
+  		padding-left: 15px;
+}
+
+	.col-auto-for-desktop {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+		width: auto;
+		max-width: none;
+	}
+
+	.row-for-desktop {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
 		height: 45rem;
 		width: 100%;
 	}
@@ -324,34 +370,38 @@ a:hover {
 }
 
 @media (max-width: 576px) {
+	#particles-js {
+  		display: none;
+  	}
+
+  	#welcome img {
+  		display: block !important;
+  		margin-left: auto;
+  		margin-right: auto;
+  		padding-bottom: 2rem !important;
+  		width: 15rem !important;
+  	}
+
+  	.col-auto-for-desktop {
+  		width: 10rem;
+  	}
+
+	#welcome-text {
+		display: block
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	#welcome-text p {
+		width: 20rem !important;
+		font-family: "clearsans";
+		text-align: center;
+	}
+
 	.tab-pane img {
 		display: block;
 		margin-right: auto !important;
 		margin-left: auto !important;
 		padding-bottom: 2rem;
-	}
-
-	#welcome-text {
-		margin-left: 5rem !important;
-	}
-
-	#welcome-text p {
-		width: 20rem !important;
-		margin-left: -1.25rem !important;
-		font-family: "clearsans";
-	}
-
-	#particles-js {
-  	display: none;
-  	}
-
-  	#welcome img {
-	position: relative;
-	padding-right: 0 !important;
-	padding-left: 0 !important;
-	margin-top: auto;
-	margin-bottom: auto;
-	vertical-align: middle;
-	width: 4rem !important;
 	}
 }

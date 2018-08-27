@@ -42,9 +42,9 @@
   <div class="container pt-5">
   	<div id="particles-js"></div>
     <script src="assets/js/particles-config.js"></script>
-    <div class="row">
-    <img class="col-auto" src="assets/images/TC_Logo_1000x1000.png">
-    <div id="welcome-text" class="col-md-6 mx-auto">
+    <div class="row-for-desktop">
+    <img class="col-auto-for-desktop" src="assets/images/TC_Logo_1000x1000.png">
+    <div id="welcome-text" class="mx-auto">
     <h1 class="text-center">Welcome to Tuxcoin!</h1>
 	  <br>
 	  <h5 class="text-center">Supporting the OSS Community</h5>
@@ -155,7 +155,7 @@ The Tuxcoin Development Team will set in motion a plan to donate to 5 projects o
 	  <ul id="walletnav" class="nav nav-tabs" role="tablist">
 	    <li class="nav-item"> <a class="nav-link active" href="#tab1" id="wallettab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Wallet Download</a> </li>
 	    <li class="nav-item"> <a class="nav-link" href="#tab2" role="tab" id="minetab" data-toggle="tab" aria-controls="hats">How to Mine</a> </li>
-		<li class="nav-item"> <a class="nav-link" href="#tab3" role="tab" id="pooltab" data-toggle="tab" aria-controls="hats">Set Up a Pool</a> </li>
+		<!-- <li class="nav-item"> <a class="nav-link" href="#tab3" role="tab" id="pooltab" data-toggle="tab" aria-controls="hats">Set Up a Pool</a> </li> -->
       </ul>
 	  <!-- Content Panel -->
 	  <div id="nav-tabs-content" class="tab-content">
@@ -188,9 +188,6 @@ The Tuxcoin Development Team will set in motion a plan to donate to 5 projects o
         </div>
 	    <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="minetab">
 	      <p>
-			  In order to mine Tuxcoin you must first set up a wallet. Please visit the link below to get the most recent version of the wallet for your operating system: 
-				<br><a href="https://github.com/bleach86/tuxcoin-v2/releases">https://github.com/bleach86/tuxcoin-v2/releases 
-				</a><br>
 				<br>Once you have the wallet installed, click the File Menu and then Releases to get your first wallet address. 
 				<br>Note: Keep your wallet protected! Never give out your private keys. It is also highly recommended you back up the wallet.dat file you’ll find in your home directory. 
 				<br>
@@ -215,7 +212,7 @@ The Tuxcoin Development Team will set in motion a plan to donate to 5 projects o
 				</a><br><a href="http://cryptorat.pw/">http://cryptorat.pw/</a>
 		  </p>
         </div>
-		<div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="pooltab">
+		<!-- <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="pooltab">
 	      <p>Every decentralized cryptocurrency relies on balanced workloads to ensure there is no abuse of the blockchain. We achieve this through multiple sources of mining – the biggest of which is pools. 
 			<br>
 			<br>Please bear in mind: setting up a pool is a considerable undertaking. If you haven’t set one up before you may find some of the process to be rather daunting. We encourage you to try and if you are stuck, there are plenty of helpful people on our Discord! 
@@ -231,7 +228,7 @@ The Tuxcoin Development Team will set in motion a plan to donate to 5 projects o
 			<br>Install instructions for tux-nomp can be found here 
 			<br>
 			<br><strong><a href="https://github.com/bleach86/tux-nomp/blob/master/docs/README.md">https://github.com/bleach86/tux-nomp/blob/master/docs/README.md&nbsp;</a></strong></p>
-        </div>
+        </div> -->
       </div>
     </div>
 </div>
@@ -241,10 +238,9 @@ The Tuxcoin Development Team will set in motion a plan to donate to 5 projects o
 	<h2>Buying Tuxcoin</h2>
 	<p>If mining isn't to your liking or if you don't have a powerful enough PC, you can also buy TUX from an exchange.
 		<br>Tuxcoin is currently on 2 exchanges:</p>
-		<a href="https://crex24.com/exchange/TUX-BTC"><h3>Crex24</h3></a>
-		<p>with a BTC pairing, and</p>
-		<a href="https://start-ex.com/"><h3>StartEx</h3></a>
-		<p>with BTC, DASH, and GBX pairings.</p>
+		<a href="https://crex24.com/exchange/TUX-BTC"><h3 style="display:inline;">Crex24</h3></a>&ensp;&ensp;<p style="display:inline;">(BTC pairing)</p>
+		<br><br>
+		<a href="https://start-ex.com/"><h3 style="display:inline;">StartEx</h3></a>&ensp;&ensp;<p style="display:inline;">(BTC, DASH, GBX pairings)</p>
 	</div>
 </div>
 <div id="donations" class="container-fluid">

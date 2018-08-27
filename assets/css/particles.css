@@ -8,30 +8,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#welcome img {
-	position: relative;
-	padding-right: 0 !important;
-	padding-left: 0 !important;
-	margin-top: auto;
-	margin-bottom: auto;
-	vertical-align: middle;
-	width: 20rem !important;
-}
-
-#welcome-text {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	margin-right: 5rem !important;
-	/*border: 1px solid #333;
-	border-radius: 1rem;
-	background-color: rgba(24,24,24,0.1);
-	border-radius: 1rem;
-	box-shadow: 0 0 1rem rgba(0,0,0,0.2);*/
-}
-
-#welcome-text p {
-	background-color: #181818;
-	padding: 2rem;
-	border-radius: 0.5rem;
-}
